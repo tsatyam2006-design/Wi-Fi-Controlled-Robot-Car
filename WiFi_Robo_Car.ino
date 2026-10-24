@@ -24,8 +24,8 @@ String command;            // String to store app command state.
 int speedCar = 500;         // Speed range: 0 - 255.
 int speed_Coeff = 3;
 
-const char* ssid = "Slog";    // SSID Name
-const char* password = "slog@123";   // Password
+const char* ssid = "Wifi_Robot_Car";    // SSID Name
+const char* password = "12345678";   // Password
 WebServer server(80);
 
 void setup() {
